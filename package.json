@@ -1,5 +1,5 @@
 {
-  "name": "tp-2---node---acercamiento",
+  "name": "TP_3_DAI",
   "version": "1.0.0",
   "main": "ej01.js",
   "scripts": {
@@ -11,14 +11,17 @@
     "ej06": "node src/ej06.js",
     "ej07": "node src/ej07.js",
     "ej08": "node src/ej08.js",
+    "Index": "node src/Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "",  
   "type": "module",
   "dependencies": {
     "axios": "^1.6.8",
-    "currency-map-country": "^1.0.12"
+    "cors": "^2.8.5",
+    "currency-map-country": "^1.0.12",
+    "express": "^4.19.2"
   }
 }
